@@ -90,7 +90,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-sm uppercase tracking-widest text-muted-foreground mb-4"
         >
-          Full-Stack Developer & Founder
+          Software Engineer & Technical Lead
         </motion.p>
         <motion.h1 
           initial={{ opacity: 0, y: 20 }}
@@ -124,12 +124,12 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-pretty mb-10"
         >
-          Full-Stack Developer with experience leading technical teams. 
-          Founder of{" "}
+          Especialista en la construcción de arquitecturas escalables y liderazgo de equipos técnicos. 
+          Fundador de{" "}
           <a href="http://www.somoscomido.com/" target="_blank" rel="noopener noreferrer" className="text-brand hover:underline font-medium">
             Comido
           </a>{" "}
-          and specialist in Next.js, GraphQL, and scalable software architecture.
+          y experto en el desarrollo de sistemas distribuidos con Next.js y GraphQL.
         </motion.p>
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
@@ -138,8 +138,8 @@ export function Hero() {
           className="flex flex-wrap items-center justify-center gap-4"
         >
           <Button asChild size="lg" className="group bg-brand hover:bg-brand-dark shadow-lg shadow-brand/25 hover:shadow-brand/40 transition-all">
-            <a href="#projects">
-              View Projects
+            <a href="/manuel_martinez_cv.pdf" target="_blank">
+              Descargar CV Técnico
               <motion.span
                 className="inline-block ml-1"
                 animate={{ x: [0, 4, 0] }}
@@ -150,7 +150,7 @@ export function Hero() {
             </a>
           </Button>
           <Button variant="outline" size="lg" asChild className="border-brand/30 hover:border-brand hover:bg-brand/5 transition-all">
-            <a href="#contact">Get in Touch</a>
+            <a href="https://github.com/Yenm2" target="_blank" rel="noopener noreferrer">Ver GitHub</a>
           </Button>
         </motion.div>
       </div>

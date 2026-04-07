@@ -75,10 +75,13 @@ export function Contact() {
                 You can also find me on:
               </p>
               <div className="flex gap-4">
-                {["LinkedIn", "GitHub", "Twitter"].map((social, index) => (
+                {[
+                  { name: "LinkedIn", url: "https://www.linkedin.com/in/manuel-martinez-729037205/" },
+                  { name: "GitHub", url: "https://github.com/Yenm2" }
+                ].map((social, index) => (
                   <motion.a
-                    key={social}
-                    href="#"
+                    key={social.name}
+                    href={social.url}
                     initial={{ opacity: 0, y: 10 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -88,7 +91,7 @@ export function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {social}
+                    {social.name}
                   </motion.a>
                 ))}
               </div>

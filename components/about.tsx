@@ -2,10 +2,10 @@
 
 import { motion } from "framer-motion"
 
-const frontendSkills = ["Next.js", "Astro", "JavaScript", "HTML5", "CSS3"]
-const backendSkills = ["Node.js", "Go", "GraphQL", "Python"]
-const toolsSkills = ["SQL Server", "Git", "Microsoft Excel", "Office"]
-const softSkills = ["Team Leadership", "Agile Methodologies", "Scrum"]
+const coreLanguages = ["JavaScript", "TypeScript", "Go", "Python"]
+const frameworks = ["Next.js (App Router)", "Astro", "React", "Node.js", "Express"]
+const infraSkills = ["MongoDB", "SQL Server", "GraphQL", "Git", "Vercel"]
+const methodologies = ["Software Architecture", "System Design", "Scrum (Agile)", "Lead Engineering"]
 
 function SkillCategory({ title, skills, delay = 0 }: { title: string; skills: string[]; delay?: number }) {
   return (
@@ -62,8 +62,7 @@ export function About() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.2 }}
               >
-                Computer Science Engineering student (8th semester) with a solid 
-                technical foundation in backend development, relational database design, and systems analysis.
+                Software Engineer con un enfoque en la construcción de arquitecturas escalables y liderazgo de equipos técnicos. Mi experiencia radica en transformar visiones de producto en plataformas robustas, habiendo diseñado y liderado la arquitectura completa de <span className="text-brand font-medium">Comido</span> (Next.js + GraphQL).
               </motion.p>
               <motion.p
                 initial={{ opacity: 0 }}
@@ -71,9 +70,7 @@ export function About() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.3 }}
               >
-                Currently the <span className="text-brand font-medium">Founder & Lead Developer of Comido</span>, 
-                a social platform for food reviews where I lead a team of 8 people and direct 
-                the software architecture using Next.js and GraphQL.
+                Como <span className="text-brand font-medium">Founder & Técnico Lead</span>, he orquestado equipos multidisciplinarios bajo metodologías Agile, garantizando siempre la excelencia técnica, el rendimiento y una visión estratégica de sistemas distribuidos.
               </motion.p>
               <motion.p
                 initial={{ opacity: 0 }}
@@ -81,17 +78,16 @@ export function About() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.4 }}
               >
-                I also work as Audio Engineer and Creative Director at Lion Records, where I have 
-                directed over 10 music videos managing multidisciplinary teams.
+                Ganador de la <span className="text-brand font-medium">Beca de Emprendimiento</span> y reconocido como &quot;Emprendedor Emergente&quot; por el Tecnológico de Monterrey (2025) por mi trabajo en innovación tecnológica y desarrollo de productos de software.
               </motion.p>
               <motion.p
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.5 }}
+                className="text-sm italic"
               >
-                Awarded as <span className="text-brand font-medium">&quot;Emerging Entrepreneur&quot;</span> by 
-                Tecnológico de Monterrey (2025).
+                Actualmente cursando el 8vo semestre de Ingeniería en Ciencias de la Computación en el Tecnológico de Monterrey.
               </motion.p>
               <motion.p 
                 initial={{ opacity: 0 }}
@@ -112,11 +108,11 @@ export function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="space-y-6"
           >
-            <h3 className="text-lg font-semibold">Technical Skills</h3>
-            <SkillCategory title="Frontend" skills={frontendSkills} delay={0.1} />
-            <SkillCategory title="Backend" skills={backendSkills} delay={0.2} />
-            <SkillCategory title="Tools & DB" skills={toolsSkills} delay={0.3} />
-            <SkillCategory title="Soft Skills" skills={softSkills} delay={0.4} />
+            <h3 className="text-lg font-semibold">Technical Excellence</h3>
+            <SkillCategory title="Core Languages" skills={coreLanguages} delay={0.1} />
+            <SkillCategory title="Frameworks & Libraries" skills={frameworks} delay={0.2} />
+            <SkillCategory title="Infrastucture & DB" skills={infraSkills} delay={0.3} />
+            <SkillCategory title="Methodologies & Leadership" skills={methodologies} delay={0.4} />
           </motion.div>
         </div>
       </div>
