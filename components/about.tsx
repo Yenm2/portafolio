@@ -38,7 +38,7 @@ function SkillCategory({ title, skills, delay = 0 }: { title: string; skills: st
 export function About({ dict }: { dict: any }) {
   const coreLanguages = ["JavaScript", "TypeScript", "Go", "Python"]
   const frameworks = ["Next.js (App Router)", "Astro", "React", "Node.js", "Express"]
-  const infraSkills = ["MongoDB", "SQL Server", "GraphQL", "Git", "Vercel"]
+  const infraSkills = ["SQL Server", "GraphQL", "Git", "Vercel"]
   const methodologies = ["Software Architecture", "System Design", "Scrum (Agile)", "Lead Engineering"]
 
   return (
@@ -48,7 +48,7 @@ export function About({ dict }: { dict: any }) {
         <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_30%_20%,rgba(0,0,0,0.03)_0%,transparent_50%)]" />
         <div className="absolute bottom-0 right-0 w-full h-full bg-[radial-gradient(circle_at_70%_80%,rgba(0,0,0,0.03)_0%,transparent_50%)]" />
       </div>
-      
+
       <div className="max-w-5xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <motion.div
@@ -94,7 +94,7 @@ export function About({ dict }: { dict: any }) {
               >
                 {dict.p4}
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
@@ -105,7 +105,7 @@ export function About({ dict }: { dict: any }) {
               </motion.p>
             </div>
           </motion.div>
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}

@@ -12,8 +12,14 @@ export async function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://manuelmartinez.tech'),
   title: 'Manuel Martinez | Software Engineer & Technical Lead',
   description: 'Software Engineer specialized in Next.js, GraphQL, and scalable software architecture. Founder of Comido.',
+  icons: {
+    icon: '/icon.svg',
+    shortcut: '/icon.svg',
+    apple: '/icon.svg',
+  },
   generator: 'v0.app',
 }
 
