@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "role": "Software Engineer & Technical Lead",
+    "description": "Especialista en la construcción de arquitecturas escalables y liderazgo de equipos técnicos. Fundador de Comido y experto en el desarrollo de sistemas distribuidos con Next.js y GraphQL.",
+    "cta": "Descargar CV Técnico",
+    "githubCta": "Ver GitHub",
+    "available": "Disponible para nuevos proyectos"
+  },
+  "nav": {
+    "projects": "Proyectos",
+    "about": "Sobre mí",
+    "contact": "Contacto"
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "description": "Una selección de mis trabajos más recientes desplegados en Vercel.",
+    "items": {
+      "kd": {
+        "title": "KD - King Detailer",
+        "description": "Captación de leads de alta fidelidad para servicios premium. Implementé una arquitectura SPA con Next.js (SSG) y optimización de activos, logrando un LCP < 1.2s y 100/100 en Performance de Lighthouse.",
+        "tags": ["Next.js", "SSG", "Performance", "Lighthouse 100"]
+      },
+      "comido": {
+        "title": "Comido",
+        "description": "Plataforma escalable de reseñas gastronómicas. Diseñé la arquitectura de microservicios y lideré un equipo de 8 ingenieros (Scrum). Implementé GraphQL para una agregación de datos eficiente, reduciendo la latencia de consultas en un 40%.",
+        "tags": ["Next.js", "GraphQL", "Microservices", "Tech Lead"]
+      },
+      "ncc": {
+        "title": "NCC - Northern Construction",
+        "description": "Sistema de gestión de maquinaria pesada con enfoque Mobile-First y SSR. Desarrollé una infraestructura de alta disponibilidad que incrementó la accesibilidad móvil en un 60%, optimizando el acceso a datos en zonas de baja conectividad.",
+        "tags": ["Next.js", "SSR", "Mobile-First", "Systems Design"]
+      },
+      "rojas": {
+        "title": "Rojas Finishes",
+        "description": "Catálogo digital interactivo de alta resolución. Implementé estrategias de Lazy Loading y Blur Placeholders para el manejo de activos de >5MB, manteniendo un Time to Interactive (TTI) inferior a 2 segundos.",
+        "tags": ["Image Optimization", "SEO", "Next.js", "Performance"]
+      },
+      "voces": {
+        "title": "Voces de la Sierra",
+        "description": "Experiencia narrativa interactiva ganadora de la Beca de Emprendimiento (Tec de Monterrey). Programé el motor de eventos y un sistema de audio procedimental reactivo utilizando C# y FMOD.",
+        "tags": ["Unity", "C#", "System Logic", "Beca de Emprendimiento"]
+      }
+    },
+    "liveSite": "Ver Sitio",
+    "code": "Código"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "p1": "Software Engineer con un enfoque en la construcción de arquitecturas escalables y liderazgo de equipos técnicos. Mi experiencia radica en transformar visiones de producto en plataformas robustas, habiendo diseñado y liderado la arquitectura completa de Comido (Next.js + GraphQL).",
+    "p2": "Como Founder & Técnico Lead, he orquestado equipos multidisciplinarios bajo metodologías Agile, garantizando siempre la excelencia técnica, el rendimiento y una visión estratégica de sistemas distribuidos.",
+    "p3": "Ganador de la Beca de Emprendimiento y reconocido como \"Emprendedor Emergente\" por el Tecnológico de Monterrey (2025) por mi trabajo en innovación tecnológica y desarrollo de productos de software.",
+    "p4": "Actualmente cursando el 8vo semestre de Ingeniería en Ciencias de la Computación en la Universidad Autónoma de Chihuahua.",
+    "languages": "Idiomas",
+    "spanish": "Español (Nativo)",
+    "english": "Inglés (Fluido)",
+    "skillsTitle": "Excelencia Técnica",
+    "coreLanguagesTitle": "Lenguajes Core",
+    "frameworksTitle": "Frameworks y Librerías",
+    "infraTitle": "Infraestructura & DB",
+    "methodologiesTitle": "Metodologías y Liderazgo"
+  },
+  "contact": {
+    "title": "Trabajemos Juntos",
+    "description": "¿Tienes un proyecto en mente? Me encantaría escucharlo y ver cómo puedo ayudarte.",
+    "infoTitle": "Información de Contacto",
+    "location": "Chihuahua, México",
+    "findMeOn": "También puedes encontrarme en:",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "placeholderName": "Tu nombre",
+      "placeholderEmail": "tu@email.com",
+      "placeholderMessage": "Cuéntame sobre tu proyecto...",
+      "send": "Enviar Mensaje"
+    }
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "builtWith": "Construido con Next.js y desplegado en Vercel"
+  }
+}

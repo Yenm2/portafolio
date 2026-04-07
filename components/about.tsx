@@ -35,7 +35,12 @@ function SkillCategory({ title, skills, delay = 0 }: { title: string; skills: st
   )
 }
 
-export function About() {
+export function About({ dict }: { dict: any }) {
+  const coreLanguages = ["JavaScript", "TypeScript", "Go", "Python"]
+  const frameworks = ["Next.js (App Router)", "Astro", "React", "Node.js", "Express"]
+  const infraSkills = ["MongoDB", "SQL Server", "GraphQL", "Git", "Vercel"]
+  const methodologies = ["Software Architecture", "System Design", "Scrum (Agile)", "Lead Engineering"]
+
   return (
     <section id="about" className="py-24 px-6 bg-secondary/30 relative overflow-hidden">
       {/* Subtle background pattern */}
@@ -53,7 +58,7 @@ export function About() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">
-              About Me
+              {dict.title}
             </h2>
             <div className="space-y-4 text-muted-foreground">
               <motion.p
@@ -62,7 +67,7 @@ export function About() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.2 }}
               >
-                Software Engineer con un enfoque en la construcción de arquitecturas escalables y liderazgo de equipos técnicos. Mi experiencia radica en transformar visiones de producto en plataformas robustas, habiendo diseñado y liderado la arquitectura completa de <span className="text-brand font-medium">Comido</span> (Next.js + GraphQL).
+                {dict.p1}
               </motion.p>
               <motion.p
                 initial={{ opacity: 0 }}
@@ -70,7 +75,7 @@ export function About() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.3 }}
               >
-                Como <span className="text-brand font-medium">Founder & Técnico Lead</span>, he orquestado equipos multidisciplinarios bajo metodologías Agile, garantizando siempre la excelencia técnica, el rendimiento y una visión estratégica de sistemas distribuidos.
+                {dict.p2}
               </motion.p>
               <motion.p
                 initial={{ opacity: 0 }}
@@ -78,7 +83,7 @@ export function About() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.4 }}
               >
-                Ganador de la <span className="text-brand font-medium">Beca de Emprendimiento</span> y reconocido como &quot;Emprendedor Emergente&quot; por el Tecnológico de Monterrey (2025) por mi trabajo en innovación tecnológica y desarrollo de productos de software.
+                {dict.p3}
               </motion.p>
               <motion.p
                 initial={{ opacity: 0 }}
@@ -87,7 +92,7 @@ export function About() {
                 transition={{ delay: 0.5 }}
                 className="text-sm italic"
               >
-                Actualmente cursando el 8vo semestre de Ingeniería en Ciencias de la Computación en el Tecnológico de Monterrey.
+                {dict.p4}
               </motion.p>
               <motion.p 
                 initial={{ opacity: 0 }}
@@ -96,8 +101,7 @@ export function About() {
                 transition={{ delay: 0.6 }}
                 className="text-sm"
               >
-                <span className="font-medium text-foreground">Languages:</span> Spanish (Native), 
-                English (Fluent)
+                <span className="font-medium text-foreground">{dict.languages}:</span> {dict.spanish}, {dict.english}
               </motion.p>
             </div>
           </motion.div>
@@ -108,11 +112,11 @@ export function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="space-y-6"
           >
-            <h3 className="text-lg font-semibold">Technical Excellence</h3>
-            <SkillCategory title="Core Languages" skills={coreLanguages} delay={0.1} />
-            <SkillCategory title="Frameworks & Libraries" skills={frameworks} delay={0.2} />
-            <SkillCategory title="Infrastucture & DB" skills={infraSkills} delay={0.3} />
-            <SkillCategory title="Methodologies & Leadership" skills={methodologies} delay={0.4} />
+            <h3 className="text-lg font-semibold">{dict.skillsTitle}</h3>
+            <SkillCategory title={dict.coreLanguagesTitle} skills={coreLanguages} delay={0.1} />
+            <SkillCategory title={dict.frameworksTitle} skills={frameworks} delay={0.2} />
+            <SkillCategory title={dict.infraTitle} skills={infraSkills} delay={0.3} />
+            <SkillCategory title={dict.methodologiesTitle} skills={methodologies} delay={0.4} />
           </motion.div>
         </div>
       </div>

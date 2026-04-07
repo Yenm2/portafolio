@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowDown } from "lucide-react"
 import { motion } from "framer-motion"
 
-export function Hero() {
+export function Hero({ dict, lang }: { dict: any; lang: string }) {
   return (
     <section className="min-h-screen flex flex-col items-center justify-center px-6 pt-20 relative overflow-hidden">
       {/* Animated background elements */}
@@ -81,7 +81,7 @@ export function Hero() {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-brand"></span>
           </span>
-          Available for new projects
+          {dict.available}
         </motion.div>
         
         <motion.p 
@@ -90,7 +90,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-sm uppercase tracking-widest text-muted-foreground mb-4"
         >
-          Software Engineer & Technical Lead
+          {dict.role}
         </motion.p>
         <motion.h1 
           initial={{ opacity: 0, y: 20 }}
@@ -124,12 +124,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-pretty mb-10"
         >
-          Especialista en la construcción de arquitecturas escalables y liderazgo de equipos técnicos. 
-          Fundador de{" "}
-          <a href="http://www.somoscomido.com/" target="_blank" rel="noopener noreferrer" className="text-brand hover:underline font-medium">
-            Comido
-          </a>{" "}
-          y experto en el desarrollo de sistemas distribuidos con Next.js y GraphQL.
+          {dict.description}
         </motion.p>
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
@@ -139,7 +134,7 @@ export function Hero() {
         >
           <Button asChild size="lg" className="group bg-brand hover:bg-brand-dark shadow-lg shadow-brand/25 hover:shadow-brand/40 transition-all">
             <a href="/manuel_martinez_cv.pdf" target="_blank">
-              Descargar CV Técnico
+              {dict.cta}
               <motion.span
                 className="inline-block ml-1"
                 animate={{ x: [0, 4, 0] }}
@@ -150,7 +145,7 @@ export function Hero() {
             </a>
           </Button>
           <Button variant="outline" size="lg" asChild className="border-brand/30 hover:border-brand hover:bg-brand/5 transition-all">
-            <a href="https://github.com/Yenm2" target="_blank" rel="noopener noreferrer">Ver GitHub</a>
+            <a href="https://github.com/Yenm2" target="_blank" rel="noopener noreferrer">{dict.githubCta}</a>
           </Button>
         </motion.div>
       </div>
