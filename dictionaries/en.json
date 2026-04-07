@@ -18,27 +18,52 @@
       "kd": {
         "title": "KD - King Detailer",
         "description": "High-fidelity lead generation for premium automotive services. Implemented a SPA architecture with Next.js (SSG) and aggressive asset optimization, achieving LCP < 1.2s and a 100/100 Lighthouse Performance score.",
-        "tags": ["Next.js", "SSG", "Performance", "Lighthouse 100"]
+        "tags": [
+          "Next.js",
+          "SSG",
+          "Performance",
+          "Lighthouse 100"
+        ]
       },
       "comido": {
         "title": "Comido",
         "description": "Scalable food review platform. Designed the microservices architecture and led an 8-person engineering team (Scrum). Implemented GraphQL for efficient data aggregation, reducing query latency by 40%.",
-        "tags": ["Next.js", "GraphQL", "Microservices", "Tech Lead"]
+        "tags": [
+          "Next.js",
+          "GraphQL",
+          "Microservices",
+          "Tech Lead"
+        ]
       },
       "ncc": {
         "title": "NCC - Northern Construction",
         "description": "Heavy machinery management system with a Mobile-First and SSR focus. Developed high-availability infrastructure that increased mobile accessibility by 60%, optimizing data access in low-connectivity areas.",
-        "tags": ["Next.js", "SSR", "Mobile-First", "Systems Design"]
+        "tags": [
+          "Next.js",
+          "SSR",
+          "Mobile-First",
+          "Systems Design"
+        ]
       },
       "rojas": {
         "title": "Rojas Finishes",
         "description": "High-resolution interactive digital catalog. Implemented Lazy Loading and Blur Placeholder strategies for handling >5MB assets while maintaining Time to Interactive (TTI) under 2 seconds.",
-        "tags": ["Image Optimization", "SEO", "Next.js", "Performance"]
+        "tags": [
+          "Image Optimization",
+          "SEO",
+          "Next.js",
+          "Performance"
+        ]
       },
       "voces": {
         "title": "Voces de la Sierra",
         "description": "Interactive narrative experience awarded with the Entrepreneurship Scholarship (Tec de Monterrey). Programmed the event engine and a reactive procedural audio system using C# and FMOD.",
-        "tags": ["Unity", "C#", "System Logic", "Entrepreneurship Award"]
+        "tags": [
+          "Unity",
+          "C#",
+          "System Logic",
+          "Entrepreneurship Award"
+        ]
       }
     },
     "liveSite": "Live Site",
@@ -49,7 +74,7 @@
     "p1": "Software Engineer focused on building scalable architectures and leading technical teams. My experience lies in transforming product visions into robust platforms, having designed and led the complete architecture of Comido (Next.js + GraphQL).",
     "p2": "As Founder & Tech Lead, I have orchestrated multidisciplinary teams under Agile methodologies, always ensuring technical excellence, performance, and a strategic vision for distributed systems.",
     "p3": "Awarded the Entrepreneurship Scholarship and recognized as an \"Emerging Entrepreneur\" by Tecnológico de Monterrey (2025) for my work in technological innovation and software product development.",
-    "p4": "Currently in my 8th semester of Computer Science Engineering at the Autonomous University of Chihuahua.",
+    "p4": "Currently in my 8th semester of Computer Science Engineering at the Universidad Autonoma de Chihuahua.",
     "languages": "Languages",
     "spanish": "Spanish (Native)",
     "english": "English (Fluent)",

@@ -4,6 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button"
 import { ExternalLink, Github } from "lucide-react"
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -29,11 +30,41 @@ const cardVariants = {
 
 export function Projects({ dict }: { dict: any }) {
   const projectItems = [
-    { id: "ncc", ...dict.items.ncc, liveUrl: "https://ncc-tan.vercel.app", githubUrl: "https://github.com/Yenm2/NCC" },
-    { id: "kd", ...dict.items.kd, liveUrl: "https://kd-tau.vercel.app", githubUrl: "https://github.com/Yenm2/KD" },
-    { id: "comido", ...dict.items.comido, liveUrl: "http://www.somoscomido.com/", githubUrl: "#" },
-    { id: "rojas", ...dict.items.rojas, liveUrl: "https://rojas-beta.vercel.app", githubUrl: "https://github.com/Yenm2/RF" },
-    { id: "voces", ...dict.items.voces, liveUrl: "https://cesarug.itch.io/vocesdelasierra", githubUrl: "#" },
+    { 
+      id: "ncc", 
+      ...dict.items.ncc, 
+      image: "/assets/projects/ncc.png",
+      liveUrl: "https://ncc-tan.vercel.app", 
+      githubUrl: "https://github.com/Yenm2/NCC" 
+    },
+    { 
+      id: "kd", 
+      ...dict.items.kd, 
+      image: "/assets/projects/kd.png",
+      liveUrl: "https://kd-tau.vercel.app", 
+      githubUrl: "https://github.com/Yenm2/KD" 
+    },
+    { 
+      id: "comido", 
+      ...dict.items.comido, 
+      image: "/assets/projects/comido.png",
+      liveUrl: "http://www.somoscomido.com/", 
+      githubUrl: "#" 
+    },
+    { 
+      id: "rojas", 
+      ...dict.items.rojas, 
+      image: "/assets/projects/rojas.png",
+      liveUrl: "https://rojas-beta.vercel.app", 
+      githubUrl: "https://github.com/Yenm2/RF" 
+    },
+    { 
+      id: "voces", 
+      ...dict.items.voces, 
+      image: "/assets/projects/voces.png",
+      liveUrl: "https://cesarug.itch.io/vocesdelasierra", 
+      githubUrl: "#" 
+    },
   ]
 
   return (
@@ -62,12 +93,26 @@ export function Projects({ dict }: { dict: any }) {
         >
           {projectItems.map((project, index) => (
             <motion.div key={index} variants={cardVariants}>
-              <Card className="group h-full hover:shadow-xl hover:shadow-brand/10 hover:-translate-y-2 transition-all duration-300 border-border/50 hover:border-brand/30">
+              <Card className="group h-full overflow-hidden hover:shadow-xl hover:shadow-brand/10 hover:-translate-y-2 transition-all duration-300 border-border/50 hover:border-brand/30">
+                <div className="relative aspect-video overflow-hidden bg-muted">
+                  <Image
+                    src={project.image}
+                    alt={`${project.title} - ${project.description}`}
+                    fill
+                    className="object-cover object-top transition-transform duration-500 group-hover:scale-110"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                    <span className="text-xs font-medium bg-brand/90 text-white px-2 py-1 rounded">
+                      {project.title}
+                    </span>
+                  </div>
+                </div>
                 <CardHeader>
                   <CardTitle className="text-xl group-hover:text-brand transition-colors">
                     {project.title}
                   </CardTitle>
-                  <CardDescription className="text-pretty">
+                  <CardDescription className="text-pretty line-clamp-2">
                     {project.description}
                   </CardDescription>
                 </CardHeader>

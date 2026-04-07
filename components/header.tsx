@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 
 export function Header({ lang, dict }: { lang: string; dict: any }) {
@@ -24,8 +24,17 @@ export function Header({ lang, dict }: { lang: string; dict: any }) {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
       <nav className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link href={`/${lang}`} className="text-lg font-semibold tracking-tight group">
-          <span className="text-brand">M</span>anuel <span className="text-brand">M</span>artinez
+        <Link href={`/${lang}`} className="flex items-center gap-2 text-lg font-semibold tracking-tight group">
+          <Image 
+            src="/assets/branding/logo.svg" 
+            alt="Manuel Martinez Logo" 
+            width={32} 
+            height={32} 
+            className="transition-transform group-hover:rotate-12"
+          />
+          <span className="hidden sm:inline">
+            <span className="text-brand">M</span>anuel <span className="text-brand">M</span>artinez
+          </span>
         </Link>
         <ul className="flex items-center gap-6 md:gap-8">
           <li>

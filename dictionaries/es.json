@@ -13,32 +13,57 @@
   },
   "projects": {
     "title": "Proyectos Destacados",
-    "description": "Una selección de mis trabajos más recientes desplegados en Vercel.",
+    "description": "Una selección de mis trabajos más recientes.",
     "items": {
       "kd": {
         "title": "KD - King Detailer",
         "description": "Captación de leads de alta fidelidad para servicios premium. Implementé una arquitectura SPA con Next.js (SSG) y optimización de activos, logrando un LCP < 1.2s y 100/100 en Performance de Lighthouse.",
-        "tags": ["Next.js", "SSG", "Performance", "Lighthouse 100"]
+        "tags": [
+          "Next.js",
+          "SSG",
+          "Performance",
+          "Lighthouse 100"
+        ]
       },
       "comido": {
         "title": "Comido",
         "description": "Plataforma escalable de reseñas gastronómicas. Diseñé la arquitectura de microservicios y lideré un equipo de 8 ingenieros (Scrum). Implementé GraphQL para una agregación de datos eficiente, reduciendo la latencia de consultas en un 40%.",
-        "tags": ["Next.js", "GraphQL", "Microservices", "Tech Lead"]
+        "tags": [
+          "Next.js",
+          "GraphQL",
+          "Microservices",
+          "Tech Lead"
+        ]
       },
       "ncc": {
         "title": "NCC - Northern Construction",
         "description": "Sistema de gestión de maquinaria pesada con enfoque Mobile-First y SSR. Desarrollé una infraestructura de alta disponibilidad que incrementó la accesibilidad móvil en un 60%, optimizando el acceso a datos en zonas de baja conectividad.",
-        "tags": ["Next.js", "SSR", "Mobile-First", "Systems Design"]
+        "tags": [
+          "Next.js",
+          "SSR",
+          "Mobile-First",
+          "Systems Design"
+        ]
       },
       "rojas": {
         "title": "Rojas Finishes",
         "description": "Catálogo digital interactivo de alta resolución. Implementé estrategias de Lazy Loading y Blur Placeholders para el manejo de activos de >5MB, manteniendo un Time to Interactive (TTI) inferior a 2 segundos.",
-        "tags": ["Image Optimization", "SEO", "Next.js", "Performance"]
+        "tags": [
+          "Image Optimization",
+          "SEO",
+          "Next.js",
+          "Performance"
+        ]
       },
       "voces": {
         "title": "Voces de la Sierra",
         "description": "Experiencia narrativa interactiva ganadora de la Beca de Emprendimiento (Tec de Monterrey). Programé el motor de eventos y un sistema de audio procedimental reactivo utilizando C# y FMOD.",
-        "tags": ["Unity", "C#", "System Logic", "Beca de Emprendimiento"]
+        "tags": [
+          "Unity",
+          "C#",
+          "System Logic",
+          "Beca de Emprendimiento"
+        ]
       }
     },
     "liveSite": "Ver Sitio",

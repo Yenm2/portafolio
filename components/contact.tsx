@@ -13,7 +13,7 @@ export function Contact({ dict }: { dict: any }) {
       <div className="absolute top-0 right-0 -z-10 opacity-20">
         <div className="w-96 h-96 bg-brand/10 rounded-full blur-3xl" />
       </div>
-      
+
       <div className="max-w-5xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -40,7 +40,7 @@ export function Contact({ dict }: { dict: any }) {
             className="space-y-8"
           >
             <h3 className="text-xl font-semibold mb-6">{dict.infoTitle}</h3>
-            
+
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 rounded-full bg-brand/10 flex items-center justify-center text-brand shrink-0">
@@ -48,8 +48,8 @@ export function Contact({ dict }: { dict: any }) {
                 </div>
                 <div>
                   <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider">Email</p>
-                  <a href="mailto:manuelmtz267@gmail.com" className="text-foreground hover:text-brand transition-colors">
-                    manuelmtz267@gmail.com
+                  <a href="mailto:manuel_martinez_martinez@outlook.com" className="text-foreground hover:text-brand transition-colors">
+                    manuel_martinez_martinez@outlook.com
                   </a>
                 </div>
               </div>
@@ -96,31 +96,31 @@ export function Contact({ dict }: { dict: any }) {
                 <label htmlFor="name" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                   {dict.form.name}
                 </label>
-                <Input 
-                  id="name" 
-                  placeholder={dict.form.placeholderName} 
-                  className="bg-background border-border/50 focus-visible:ring-brand/50 transition-colors" 
+                <Input
+                  id="name"
+                  placeholder={dict.form.placeholderName}
+                  className="bg-background border-border/50 focus-visible:ring-brand/50 transition-colors"
                 />
               </div>
               <div className="space-y-2">
                 <label htmlFor="email" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                   {dict.form.email}
                 </label>
-                <Input 
-                  id="email" 
-                  type="email" 
-                  placeholder={dict.form.placeholderEmail} 
-                  className="bg-background border-border/50 focus-visible:ring-brand/50 transition-colors" 
+                <Input
+                  id="email"
+                  type="email"
+                  placeholder={dict.form.placeholderEmail}
+                  className="bg-background border-border/50 focus-visible:ring-brand/50 transition-colors"
                 />
               </div>
               <div className="space-y-2">
                 <label htmlFor="message" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                   {dict.form.message}
                 </label>
-                <Textarea 
-                  id="message" 
-                  placeholder={dict.form.placeholderMessage} 
-                  className="min-h-[120px] bg-background border-border/50 focus-visible:ring-brand/50 transition-colors" 
+                <Textarea
+                  id="message"
+                  placeholder={dict.form.placeholderMessage}
+                  className="min-h-[120px] bg-background border-border/50 focus-visible:ring-brand/50 transition-colors"
                 />
               </div>
               <Button type="submit" className="w-full bg-brand hover:bg-brand-dark shadow-md shadow-brand/20 transition-all font-medium h-11">
