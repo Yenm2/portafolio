@@ -30,40 +30,33 @@ const cardVariants = {
 
 export function Projects({ dict }: { dict: any }) {
   const projectItems = [
-    { 
-      id: "ncc", 
-      ...dict.items.ncc, 
-      image: "/assets/projects/ncc.png",
-      liveUrl: "https://ncc-tan.vercel.app", 
-      githubUrl: "https://github.com/Yenm2/NCC" 
-    },
-    { 
-      id: "kd", 
-      ...dict.items.kd, 
-      image: "/assets/projects/kd.png",
-      liveUrl: "https://kd-tau.vercel.app", 
-      githubUrl: "https://github.com/Yenm2/KD" 
-    },
-    { 
-      id: "comido", 
-      ...dict.items.comido, 
+    {
+      id: "comido",
+      ...dict.items.comido,
       image: "/assets/projects/comido.png",
-      liveUrl: "http://www.somoscomido.com/", 
-      githubUrl: "#" 
+      liveUrl: "http://www.somoscomido.com/",
+      githubUrl: "#"
     },
-    { 
-      id: "rojas", 
-      ...dict.items.rojas, 
-      image: "/assets/projects/rojas.png",
-      liveUrl: "https://rojas-beta.vercel.app", 
-      githubUrl: "https://github.com/Yenm2/RF" 
+    {
+      id: "ncc",
+      ...dict.items.ncc,
+      image: "/assets/projects/ncc.png",
+      liveUrl: "https://ncccolorado.com/",
+      githubUrl: "https://github.com/Yenm2/NCC"
     },
-    { 
-      id: "voces", 
-      ...dict.items.voces, 
+    {
+      id: "Magnolia",
+      ...dict.items.Magnolia,
+      image: "/assets/projects/magnolia.png",
+      liveUrl: "https://magnoliajoyeria.com/password",
+      githubUrl: "#"
+    },
+    {
+      id: "ecos",
+      ...dict.items.ecos,
       image: "/assets/projects/voces.png",
-      liveUrl: "https://cesarug.itch.io/vocesdelasierra", 
-      githubUrl: "#" 
+      liveUrl: "https://cesarug.itch.io/vocesdelasierra",
+      githubUrl: "#"
     },
   ]
 

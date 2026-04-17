@@ -1,7 +1,7 @@
 {
   "hero": {
-    "role": "Software Engineer & Technical Lead",
-    "description": "Specializing in building scalable architectures and leading technical teams. Founder of Comido and expert in developing distributed systems over the Next.js and GraphQL ecosystem.",
+    "role": "Backend & Infrastructure Engineer",
+    "description": "Focused on systems stability, security, and scalability. Specialist in distributed architectures and critical infrastructure management.",
     "cta": "Download Technical CV",
     "githubCta": "View GitHub",
     "available": "Available for new projects"
@@ -12,57 +12,47 @@
     "contact": "Contact"
   },
   "projects": {
-    "title": "Featured Projects",
-    "description": "A selection of my most recent work deployed on Vercel.",
+    "title": "Infrastructure & Systems",
+    "description": "Critical systems, digital asset management, and technical optimization.",
     "items": {
-      "kd": {
-        "title": "KD - King Detailer",
-        "description": "High-fidelity lead generation for premium automotive services. Implemented a SPA architecture with Next.js (SSG) and aggressive asset optimization, achieving LCP < 1.2s and a 100/100 Lighthouse Performance score.",
-        "tags": [
-          "Next.js",
-          "SSG",
-          "Performance",
-          "Lighthouse 100"
-        ]
-      },
       "comido": {
         "title": "Comido",
-        "description": "Scalable food review platform. Designed the microservices architecture and led an 8-person engineering team (Scrum). Implemented GraphQL for efficient data aggregation, reducing query latency by 40%.",
+        "description": "Implemented a microservices-based architecture, setting up GitLab and Plane instances for development lifecycle management. Configured production environments on Linux systems with Docker to ensure scalability.",
         "tags": [
-          "Next.js",
-          "GraphQL",
-          "Microservices",
-          "Tech Lead"
+          "Linux",
+          "Docker",
+          "GitLab CI/CD",
+          "Microservices"
         ]
       },
       "ncc": {
-        "title": "NCC - Northern Construction",
-        "description": "Heavy machinery management system with a Mobile-First and SSR focus. Developed high-availability infrastructure that increased mobile accessibility by 60%, optimizing data access in low-connectivity areas.",
+        "title": "NCC - Infrastructure",
+        "description": "High-availability infrastructure for machinery management. Implemented SSR architecture and optimized data access in low-connectivity areas, guaranteeing information integrity and critical name resolution.",
         "tags": [
-          "Next.js",
           "SSR",
-          "Mobile-First",
-          "Systems Design"
+          "High Availability",
+          "Systems Design",
+          "Data Integrity"
         ]
       },
-      "rojas": {
-        "title": "Rojas Finishes",
-        "description": "High-resolution interactive digital catalog. Implemented Lazy Loading and Blur Placeholder strategies for handling >5MB assets while maintaining Time to Interactive (TTI) under 2 seconds.",
+      "Magnolia": {
+        "title": "Magnolia Jewelry",
+        "description": "Digital Asset Management and DNS Security. Managed name resolution (DNS) and configured infrastructure to guarantee 100% uptime during critical system migrations, preventing service outages.",
         "tags": [
-          "Image Optimization",
-          "SEO",
-          "Next.js",
-          "Performance"
+          "DNS Security",
+          "Nginx",
+          "Asset Management",
+          "Uptime 100%"
         ]
       },
-      "voces": {
-        "title": "Voces de la Sierra",
-        "description": "Interactive narrative experience awarded with the Entrepreneurship Scholarship (Tec de Monterrey). Programmed the event engine and a reactive procedural audio system using C# and FMOD.",
+      "ecos": {
+        "title": "Ecos del Desierto",
+        "description": "Resource optimization and database management. Implemented an event engine and an optimized data system to reduce server load, ensuring data integrity in high-demand environments.",
         "tags": [
-          "Unity",
-          "C#",
-          "System Logic",
-          "Entrepreneurship Award"
+          "SQL Server",
+          "DB Optimization",
+          "Resource Management",
+          "C#"
         ]
       }
     },
@@ -71,10 +61,10 @@
   },
   "about": {
     "title": "About Me",
-    "p1": "Software Engineer focused on building scalable architectures and leading technical teams. My experience lies in transforming product visions into robust platforms, having designed and led the complete architecture of Comido (Next.js + GraphQL).",
-    "p2": "As Founder & Tech Lead, I have orchestrated multidisciplinary teams under Agile methodologies, always ensuring technical excellence, performance, and a strategic vision for distributed systems.",
-    "p3": "Awarded the Entrepreneurship Scholarship and recognized as an \"Emerging Entrepreneur\" by Tecnológico de Monterrey (2025) for my work in technological innovation and software product development.",
-    "p4": "Currently in my 8th semester of Computer Science Engineering at the Universidad Autonoma de Chihuahua.",
+    "p1": "Software Engineer focused on ensuring the stability, security, and scalability of systems. My experience lies in building robust architectures and managing critical infrastructure.",
+    "p2": "As a technical lead, I specialize in implementing microservices and administering production environments (Linux/Docker), always ensuring data integrity and 100% uptime.",
+    "p3": "Awarded the Entrepreneurship Scholarship and recognized as an \"Emerging Entrepreneur\" by Tecnológico de Monterrey (2025) for my work in distributed systems development.",
+    "p4": "Currently in my 8th semester of Computer Science Engineering at the Universidad Autónoma de Chihuahua.",
     "languages": "Languages",
     "spanish": "Spanish (Native)",
     "english": "English (Fluent)",
@@ -82,7 +72,7 @@
     "coreLanguagesTitle": "Core Languages",
     "frameworksTitle": "Frameworks & Libraries",
     "infraTitle": "Infrastructure & DB",
-    "methodologiesTitle": "Methodologies & Leadership"
+    "methodologiesTitle": "Methodologies & Systems"
   },
   "contact": {
     "title": "Let's Work Together",

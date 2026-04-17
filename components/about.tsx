@@ -2,10 +2,10 @@
 
 import { motion } from "framer-motion"
 
-const coreLanguages = ["JavaScript", "TypeScript", "Go", "Python"]
-const frameworks = ["Next.js (App Router)", "Astro", "React", "Node.js", "Express"]
-const infraSkills = ["MongoDB", "SQL Server", "GraphQL", "Git", "Vercel"]
-const methodologies = ["Software Architecture", "System Design", "Scrum (Agile)", "Lead Engineering"]
+const coreLanguages = ["Go (Golang)", "SQL Server", "Python", "JavaScript", "TypeScript"]
+const frameworks = ["Next.js", "Node.js", "React", "Astro", "CSS", "HTML5"]
+const infraSkills = ["Linux", "Docker", "Nginx", "SSH", "Git", "Vercel", "GraphQL"]
+const methodologies = ["Systems Architecture", "Network Security", "CI/CD Pipelines", "System Design", "Agile"]
 
 function SkillCategory({ title, skills, delay = 0 }: { title: string; skills: string[]; delay?: number }) {
   return (
@@ -36,10 +36,6 @@ function SkillCategory({ title, skills, delay = 0 }: { title: string; skills: st
 }
 
 export function About({ dict }: { dict: any }) {
-  const coreLanguages = ["JavaScript", "TypeScript", "Go", "Python"]
-  const frameworks = ["Next.js (App Router)", "Astro", "React", "Node.js", "Express"]
-  const infraSkills = ["SQL Server", "GraphQL", "Git", "Vercel"]
-  const methodologies = ["Software Architecture", "System Design", "Scrum (Agile)", "Lead Engineering"]
 
   return (
     <section id="about" className="py-24 px-6 bg-secondary/30 relative overflow-hidden">

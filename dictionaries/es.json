@@ -1,7 +1,7 @@
 {
   "hero": {
-    "role": "Software Engineer & Technical Lead",
-    "description": "Especialista en la construcción de arquitecturas escalables y liderazgo de equipos técnicos. Fundador de Comido y experto en el desarrollo de sistemas distribuidos con Next.js y GraphQL.",
+    "role": "Backend & Infrastructure Engineer",
+    "description": "Enfoque en la estabilidad, seguridad y escalabilidad de sistemas. Especialista en arquitecturas distribuidas y gestión de infraestructura crítica.",
     "cta": "Descargar CV Técnico",
     "githubCta": "Ver GitHub",
     "available": "Disponible para nuevos proyectos"
@@ -12,57 +12,47 @@
     "contact": "Contacto"
   },
   "projects": {
-    "title": "Proyectos Destacados",
-    "description": "Una selección de mis trabajos más recientes.",
+    "title": "Infraestructura & Sistemas",
+    "description": "Sistemas críticos, gestión de activos y optimización técnica.",
     "items": {
-      "kd": {
-        "title": "KD - King Detailer",
-        "description": "Captación de leads de alta fidelidad para servicios premium. Implementé una arquitectura SPA con Next.js (SSG) y optimización de activos, logrando un LCP < 1.2s y 100/100 en Performance de Lighthouse.",
-        "tags": [
-          "Next.js",
-          "SSG",
-          "Performance",
-          "Lighthouse 100"
-        ]
-      },
       "comido": {
         "title": "Comido",
-        "description": "Plataforma escalable de reseñas gastronómicas. Diseñé la arquitectura de microservicios y lideré un equipo de 8 ingenieros (Scrum). Implementé GraphQL para una agregación de datos eficiente, reduciendo la latencia de consultas en un 40%.",
+        "description": "Implementé una arquitectura basada en microservicios, levantando instancias de GitLab y Plane para la gestión del ciclo de vida del desarrollo. Configuré el entorno de producción en sistemas Linux con Docker para asegurar la escalabilidad.",
         "tags": [
-          "Next.js",
-          "GraphQL",
-          "Microservices",
-          "Tech Lead"
+          "Linux",
+          "Docker",
+          "GitLab CI/CD",
+          "Microservicios"
         ]
       },
       "ncc": {
-        "title": "NCC - Northern Construction",
-        "description": "Sistema de gestión de maquinaria pesada con enfoque Mobile-First y SSR. Desarrollé una infraestructura de alta disponibilidad que incrementó la accesibilidad móvil en un 60%, optimizando el acceso a datos en zonas de baja conectividad.",
+        "title": "NCC - Infrastructure",
+        "description": "Infraestructura de alta disponibilidad para gestión de maquinaria. Implementé una arquitectura SSR y optimicé el acceso a datos en zonas de baja conectividad, garantizando la integridad de la información y la resolución de nombres crítica.",
         "tags": [
-          "Next.js",
           "SSR",
-          "Mobile-First",
-          "Systems Design"
+          "High Availability",
+          "Systems Design",
+          "Data Integrity"
         ]
       },
-      "rojas": {
-        "title": "Rojas Finishes",
-        "description": "Catálogo digital interactivo de alta resolución. Implementé estrategias de Lazy Loading y Blur Placeholders para el manejo de activos de >5MB, manteniendo un Time to Interactive (TTI) inferior a 2 segundos.",
+      "Magnolia": {
+        "title": "Magnolia Joyería",
+        "description": "Gestión de Activos Digitales y Seguridad DNS. Administré la resolución de nombres (DNS) y configuré la infraestructura para garantizar un uptime del 100% durante la migración de sistemas críticos, evitando caídas de servicio.",
         "tags": [
-          "Image Optimization",
-          "SEO",
-          "Next.js",
-          "Performance"
+          "DNS Security",
+          "Nginx",
+          "Asset Management",
+          "Uptime 100%"
         ]
       },
-      "voces": {
-        "title": "Voces de la Sierra",
-        "description": "Experiencia narrativa interactiva ganadora de la Beca de Emprendimiento (Tec de Monterrey). Programé el motor de eventos y un sistema de audio procedimental reactivo utilizando C# y FMOD.",
+      "ecos": {
+        "title": "Ecos del Desierto",
+        "description": "Optimización de recursos y manejo de bases de datos. Implementé un motor de eventos y un sistema de datos optimizado para reducir la carga en el servidor, garantizando la integridad de la información en entornos de alta demanda.",
         "tags": [
-          "Unity",
-          "C#",
-          "System Logic",
-          "Beca de Emprendimiento"
+          "SQL Server",
+          "DB Optimization",
+          "Resource Management",
+          "C#"
         ]
       }
     },
@@ -71,9 +61,9 @@
   },
   "about": {
     "title": "Sobre mí",
-    "p1": "Software Engineer con un enfoque en la construcción de arquitecturas escalables y liderazgo de equipos técnicos. Mi experiencia radica en transformar visiones de producto en plataformas robustas, habiendo diseñado y liderado la arquitectura completa de Comido (Next.js + GraphQL).",
-    "p2": "Como Founder & Técnico Lead, he orquestado equipos multidisciplinarios bajo metodologías Agile, garantizando siempre la excelencia técnica, el rendimiento y una visión estratégica de sistemas distribuidos.",
-    "p3": "Ganador de la Beca de Emprendimiento y reconocido como \"Emprendedor Emergente\" por el Tecnológico de Monterrey (2025) por mi trabajo en innovación tecnológica y desarrollo de productos de software.",
+    "p1": "Software Engineer con un enfoque en garantizar la estabilidad, seguridad y escalabilidad de los sistemas. Mi experiencia radica en la construcción de arquitecturas robustas y la gestión de infraestructura crítica.",
+    "p2": "Como líder técnico, me especializo en la implementación de microservicios y la administración de entornos de producción (Linux/Docker), asegurando siempre la integridad de los datos y el uptime del 100%.",
+    "p3": "Ganador de la Beca de Emprendimiento y reconocido como \"Emprendedor Emergente\" por el Tecnológico de Monterrey (2025) por mi trabajo en innovación tecnológica y desarrollo de sistemas distribuidos.",
     "p4": "Actualmente cursando el 8vo semestre de Ingeniería en Ciencias de la Computación en la Universidad Autónoma de Chihuahua.",
     "languages": "Idiomas",
     "spanish": "Español (Nativo)",
@@ -82,7 +72,7 @@
     "coreLanguagesTitle": "Lenguajes Core",
     "frameworksTitle": "Frameworks y Librerías",
     "infraTitle": "Infraestructura & DB",
-    "methodologiesTitle": "Metodologías y Liderazgo"
+    "methodologiesTitle": "Metodologías y Sistemas"
   },
   "contact": {
     "title": "Trabajemos Juntos",
